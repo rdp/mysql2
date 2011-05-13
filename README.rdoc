@@ -18,6 +18,10 @@ Mysql2::Result - returned from issuing a #query on the connection. It includes E
 
 You may have to specify --with-mysql-config=/some/random/path/bin/mysql_config
 
+On windows it will either install a binary for you, or, barring that, install like
+
+  gem install mysql2 -- --with-mysql-dir=c:\installs\mysql-5.5-11
+  
 == Usage
 
 Connect to a database:
